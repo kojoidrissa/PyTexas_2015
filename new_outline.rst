@@ -17,6 +17,7 @@ Understanding Privilege
 -  Compare/contrast white cishetero man with:
 
     +  his wife
+    +  his wife's twin, who's husband was a jerk & now she's a single mom
     +  his male co-worker of color
     +  ANYONE not cishetero
 
