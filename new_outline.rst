@@ -28,4 +28,11 @@ Understanding Privilege
 
 Personal Privilege Profile
 ----
--  The visualizer
+-  The visualizer axes
+
+    +  cis gendered
+    +  hetero
+    +  male
+    +  white
+    +  education
+    +  ???
