@@ -190,6 +190,6 @@ if __name__ == '__main__':
     legend = plt.legend(labels, loc=(0.9, .95), labelspacing=0.1)
     plt.setp(legend.get_texts(), fontsize='small')
 
-    plt.figtext(0.5, 0.965, 'Personal Privilege Profiles Across Four Scenarios',
+    plt.figtext(0.5, 0.965, 'Overlap_Profiles.py: Overlapping Personal Privilege Profiles Across Four Scenarios',
                 ha='center', color='black', weight='bold', size='large')
     plt.show()
