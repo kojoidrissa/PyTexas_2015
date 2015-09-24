@@ -1,7 +1,7 @@
-Building a More Inclusive Python Community
+Building a More Inclusive Python Community Culture
 ====
 
-Diversity "Problem Solving"
+Diverse "problem solving"
 ----
 Google that
 
@@ -20,6 +20,10 @@ Building an Inclusive Community Culture
      a) Prior negative experiences? Your burden now!
      b) How much would YOU pay for this bad experience?
 3. Privilege
+
+     a) Defined
+     b) Visualized 
+
    
 Understanding Privilege
 ----
