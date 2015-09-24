@@ -1,10 +1,26 @@
 Building a More Inclusive Python Community
 ====
 
-Inclusive Community Culture
+Diversity "Problem Solving"
 ----
--  What steps to take to help develop this culture?
+Google that
 
+Inclusive Culture
+----
+Persistent, self-sustaining diversity
+
+Building an Inclusive Community Culture
+----
+1. Awareness
+
+     a) Watch for silent errors
+     b) Flip the demographics
+2. Empathy in Outreach
+
+     a) Prior negative experiences? Your burden now!
+     b) How much would YOU pay for this bad experience?
+3. Privilege
+   
 Understanding Privilege
 ----
 -  Privilege: What you DON'T have to worry about
