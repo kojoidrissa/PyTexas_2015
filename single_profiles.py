@@ -133,21 +133,20 @@ def example_data():
     #  4)Inclusion of both gas-phase speciesis present...
     data = {
         'column names':
-            ['cis gendered', 'hetero', 'male', 'white', 'education', 'OC3', 'OP', 'CO',
-             'O3'],
+            ['cis gendered', 'hetero', 'male', 'white', 'education', 'income'],
         'Adam':
-            [[1.00, 0.80, 0.80, 0.80, 0.60, 0.00, 0.00, 0.00, 0.00]],
+            [[1.00, 0.80, 0.80, 0.80, 0.60, 0.00, ]],
         'Eve':
-            [[0.88, 0.80, 0.80, 0.80, 0.80, 0.00, 0.00, 0.00, 0.00]],
+            [[0.88, 0.80, 0.80, 0.80, 0.80, 0.00, ]],
         'Esther':
-            [[0.70, 0.70, 0.70, 0.70, 0.70, 0.00, 0.00, 0.00, 0.00]],
+            [[0.70, 0.70, 0.70, 0.70, 0.70, 0.00, ]],
         'Frank':
-            [[0.60, 0.60, 0.60, 0.60, 0.60, 0.00, 0.00, 0.00, 0.00]]}
+            [[0.60, 0.60, 0.60, 0.60, 0.60, 0.00, ]]}
     return data
 
 
 if __name__ == '__main__':
-    N = 9
+    N = 6
     theta = radar_factory(N, frame='polygon')
 
     data = example_data()
@@ -160,7 +159,7 @@ if __name__ == '__main__':
     # Plot the four cases from the example data on separate axes
     for n, title in enumerate(data.keys()):
         ax = fig.add_subplot(2, 2, n+1, projection='radar')
-        plt.rgrids([0.2, 0.4, 0.6, 0.8])
+        plt.rgrids([0.2, 0.4, 0.6, 0.8, 1.0])
         ax.set_title(title, weight='bold', size='medium', position=(0.5, 1.1),
                      horizontalalignment='center', verticalalignment='center')
         for d, color in zip(data[title], colors):
