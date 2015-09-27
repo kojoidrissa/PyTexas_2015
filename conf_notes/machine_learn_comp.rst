@@ -10,6 +10,8 @@ Concepts
 ----
 -  Data Science
 -  Machine Learning
+
+    +  Supervised Learning (data has lables) vs Unsupervised (data has no lables)
     -  NLP
         -  Sentiment Analysis
 
